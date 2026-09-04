@@ -30,6 +30,8 @@ call plug#begin()
 	Plug 'nvim-java/nvim-java'
 	Plug 'MunifTanjim/nui.nvim'
 	Plug 'mfussenegger/nvim-dap'
+	Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
+	Plug 'brenton-leighton/multiple-cursors.nvim'
 call plug#end()
 function! TypstWatch()
     " Split the window horizontally at the bottom
